@@ -45,5 +45,5 @@ Thumbs.db
 
 # Agent Skills
 .claude
-.github
+.github/copilot-instructions.md
 AGENTS.md
