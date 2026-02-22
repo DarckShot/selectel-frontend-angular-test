@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "sectionName": "Тип 1",
+      "items": [
+        { "id": 1, "name": "Item1", "value": 20 },
+        { "id": 2, "name": "Item2", "value": 30 },
+        { "id": 3, "name": "Item3", "value": 40 },
+        { "id": 4, "name": "Item4", "value": 50 }
+      ]
+    },
+    {
+      "id": 2,
+      "sectionName": "Тип 2",
+      "items": [
+        { "id": 1, "name": "Item1", "value": 100 },
+        { "id": 2, "name": "Item2", "value": 200 },
+        { "id": 3, "name": "Item3", "value": 300 },
+        { "id": 4, "name": "Item4", "value": 400 }
+      ]
+    }
+  ]
+}

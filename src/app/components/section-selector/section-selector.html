@@ -1,0 +1,14 @@
+@for (section of sections(); track section.id) {
+  <label class="radio-label">
+    <input
+      class="radio-input"
+      type="radio"
+      name="section"
+      [id]="'radio-' + section.id"
+      [value]="section.sectionName"
+      (change)="onSectionChange(section)"
+    />
+    <span class="radio" aria-hidden="true"></span>
+    <p class="menu-label">{{ section.sectionName }}</p>
+  </label>
+}

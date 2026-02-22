@@ -1,0 +1,17 @@
+@for (item of section().items; track item.id) {
+  <label class="checkbox-label">
+    <input
+      #checkbox
+      class="checkbox-input"
+      type="checkbox"
+      [id]="'item-' + item.id"
+      [checked]="isSelected(item)"
+      (change)="onCheckboxChange(item, checkbox)"
+    />
+    <span class="checkbox" aria-hidden="true"></span>
+    <div class="item-info">
+      <p class="item-name">{{ item.name }}</p>
+      <p class="item-value">Value: {{ item.value }}</p>
+    </div>
+  </label>
+}

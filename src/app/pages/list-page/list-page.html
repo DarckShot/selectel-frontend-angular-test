@@ -1,0 +1,18 @@
+<app-header
+  [selectedItemsCount]="selectedItemsCount()"
+  [selectedItemsValue]="selectedItemsValue()"
+  [sectionName]="sectionName()"
+></app-header>
+
+<div class="list-page__container">
+  <app-section-selector
+    [sections]="sections()"
+    (selectedSectionChange)="onSectionSelected($event)"
+  ></app-section-selector>
+  @if (selectedSection(); as section) {
+    <app-item-selector
+      [section]="section"
+      (selectedItemsCheck)="onItemsSelected($event)"
+    ></app-item-selector>
+  }
+</div>

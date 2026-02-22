@@ -1,0 +1,30 @@
+:host {
+  width: 25%;
+  min-height: 0;
+  align-self: stretch;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  border-right: 2px solid var(--color-primary);
+
+  overflow-y: scroll;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(15, 23, 42, 0.14) transparent;
+}
+
+:host::-webkit-scrollbar {
+  width: 8px;
+}
+:host::-webkit-scrollbar-track {
+  background: transparent;
+}
+:host::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.14);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}

@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.list-page__container {
+  display: flex;
+  align-items: flex-start;
+
+  flex: 1 1 auto;
+  min-height: 0;
+}

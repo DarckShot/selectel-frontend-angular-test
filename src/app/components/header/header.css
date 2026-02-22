@@ -1,0 +1,22 @@
+.header__container {
+  width: 100%;
+  padding: 10px 20px 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  border-bottom: 2px solid var(--color-primary);
+
+  .header__accent_numbers {
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .header__selected_container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
